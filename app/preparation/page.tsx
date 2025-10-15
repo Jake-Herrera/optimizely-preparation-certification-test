@@ -194,7 +194,7 @@ export default function PreparationPage() {
                     {passed ? "PASSED" : "NEEDS IMPROVEMENT"}
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    {passed ? "Score of 80% or higher required to pass" : "You need 80% or higher to pass"}
+                    {passed ? "Score of 85% or higher required to pass" : "You need 85% or higher to pass"}
                   </p>
                 </div>
 
