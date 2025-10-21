@@ -597,6 +597,58 @@ export const developerQuestions = {
             "answer": "a",
             "source": "https://docs.developers.optimizely.com/content-management-system/v1.0.0-CMS-SaaS/docs/property-groups-saas",
             "justification": "source – A key indicating where this group came from. It is empty when created from the UI and set to _system when defined by CMS (SaaS)."
-        }
+        },
+        {
+            "subject": "Content Types",
+            "subtopic": "Content Types Overview",
+            "question": "What is a content type in CMS (SaaS)?",
+            "option-a": "A group of properties describing a logical type of content",
+            "option-b": "A single piece of content on a webpage",
+            "option-c": "A template for visual layout",
+            "option-d": "A user role in the content management system",
+            "option-e": "",
+            "answer": "a",
+            "source": "https://docs.developers.optimizely.com/content-management-system/v1.0.0-CMS-SaaS/docs/content-types-saas",
+            "justification": " It defines the structure and properties of that content, including fields and settings that are unique to that type."
+        },
+        {
+            "subject": "Content modeling",
+            "subtopic": "Experience Overview",
+            "question": "What is a key feature of experience content types?",
+            "option-a": "They cannot include structured blocks.",
+            "option-b": "They are limited to text-based content.",
+            "option-c": "They Offer grid-based layouts for compositional flexibility.",
+            "option-d": "They are only accessible through a specific URL",
+            "option-e": "",
+            "answer": "c",
+            "source": "https://docs.developers.optimizely.com/content-management-system/v1.0.0-CMS-SaaS/docs/content-modeling-saas#experience-content-types",
+            "justification": " Experiences feature the following: - Grid-based layouts for compositional flexibility. -Ability to mix structured blocks and editor-defined content."
+        },
+        {
+            "subject": "Environments & Configuration",
+            "subtopic": "Configure Environments",
+            "question": "What happens when you enable Opti ID for CMS (SaaS)?",
+            "option-a": "It immediately impacts existing authentication on the site.",
+            "option-b": "It can be undone at any time.",
+            "option-c": "It prepares your CMS (SaaS) environment without impacting existing authentication.",
+            "option-d": "It automatically configures SSO for all users",
+            "option-e": "",
+            "answer": "c",
+            "source": "https://support.optimizely.com/hc/en-us/articles/32800954300941-Configure-Opti-ID-for-CMS-SaaS#h_01JFB2NWABWJZVJC5MA082VD0N",
+            "justification": " Checking Opti ID Enabled prepares your CMS (SaaS) environment but does not impact existing authentication on the site. You cannot undo this, so ensure you are ready to move forward. It can take up to an hour before Opti ID is fully provisioned."
+        },
+        {
+            "subject": "Environments & Configuration",
+            "subtopic": "CMS (SaaS) dashboard",
+            "question": "What happens to the language filter when you log out of the CMS?",
+            "option-a": "It remembers your last selection.",
+            "option-b": "the filter gets passed through the redirect automatically at logout.",
+            "option-c": "It resets to the default language.",
+            "option-d": "It prompts you to choose a language at next login",
+            "option-e": "",
+            "answer": "c",
+            "source": "https://docs.developers.optimizely.com/content-management-system/v1.0.0-CMS-SaaS/docs/get-started-with-cms-saas#cms-saas-content-manager",
+            "justification": "Administrators can enable the language filter options. Also, if you go to the dashboard and select Swedish (for example), you can go to another page and Swedish is maintained when you return to the dashboard. However, if you log out, the language filter is reset to the default language."
+        } 
     ]
 }
